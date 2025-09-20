@@ -1,0 +1,37 @@
+name: fleetflow
+description: A new Flutter project about car management
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.68.0
+  flutter_svg: ^2.0.7   # ✅ Updated to the latest compatible version
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_animate: ^4.2.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          weight: 600
